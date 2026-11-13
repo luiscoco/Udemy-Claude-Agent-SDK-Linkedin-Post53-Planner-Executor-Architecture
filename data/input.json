@@ -1,0 +1,8 @@
+{
+  "goal": "Produce a summary of three supplied facts",
+  "facts": [
+    "Read retrieves content.",
+    "Glob finds paths.",
+    "ResultMessage reports run outcome."
+  ]
+}

@@ -1,0 +1,26 @@
+[
+  {
+    "sequence": 1,
+    "kind": "stage_started",
+    "stage": "planner",
+    "mode": "offline_fixture"
+  },
+  {
+    "sequence": 2,
+    "kind": "stage_finished",
+    "stage": "planner",
+    "elapsed_seconds": 0.00024
+  },
+  {
+    "sequence": 3,
+    "kind": "stage_started",
+    "stage": "executor_s2",
+    "mode": "offline_fixture"
+  },
+  {
+    "sequence": 4,
+    "kind": "stage_finished",
+    "stage": "executor_s2",
+    "elapsed_seconds": 3e-05
+  }
+]

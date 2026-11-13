@@ -1,0 +1,33 @@
+{
+  "lesson": 52,
+  "application": "Validated Planner and Executor",
+  "mode": "offline_teaching_fixture",
+  "status": "complete",
+  "result": {
+    "plan": {
+      "steps": [
+        {
+          "id": "s1",
+          "action": "collect",
+          "depends_on": []
+        },
+        {
+          "id": "s2",
+          "action": "summarize",
+          "depends_on": [
+            "s1"
+          ]
+        }
+      ]
+    },
+    "completed": {
+      "s1": [
+        "Read retrieves content.",
+        "Glob finds paths.",
+        "ResultMessage reports run outcome."
+      ],
+      "s2": "Discover paths with Glob, read content with Read, and inspect ResultMessage for the outcome."
+    }
+  },
+  "measured_cost_usd": null
+}

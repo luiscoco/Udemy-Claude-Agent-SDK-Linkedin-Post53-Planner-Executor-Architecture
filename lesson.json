@@ -1,0 +1,16 @@
+{
+  "lesson": 52,
+  "title": "Planner-Executor Architecture",
+  "application": "Validated Planner and Executor",
+  "purpose": "Validate a structured plan against a closed action catalogue, then execute dependencies in order.",
+  "exercise": "Add a dependency on an unknown ID or an unapproved action. Confirm no executor runs for the invalid step.",
+  "source_topics": [
+    "00-Arquitectura Planner–Executor_ Guía visual.png",
+    "01-Separate-Planning-from-Execution.png",
+    "02-What-a-Good-Plan-Contains.png",
+    "03-Create-the-Plan-as-JSON.png",
+    "04-Execute-Each-Step-in-Order.png",
+    "05-Handle-Errors-and-Re-Plan.png",
+    "06-When-to-Use-Planner-Executor.png"
+  ]
+}
